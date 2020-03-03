@@ -46,3 +46,14 @@
     color:#fff;
 }
 
+.mGallery{
+    text-align: center;
+}
+
+.Gallery{
+       max-width: 50px;
+}
+
+.example-image-link{
+    text-decoration: none;
+}
