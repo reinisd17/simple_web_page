@@ -1,35 +1,49 @@
+body{
+    background-image: url("../images/Background/Backgroundpicture.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
 .mainbox{
-    background-color: coral;
-    width: 800px;
+    width: 100%;
     margin: 0px auto;
 }
+
+.menu>a {
+
+}
+
 .menu{
-    background-color: brown;
+    width: 100%;
+    height: 200px;
+    text-align: center;
 }
 
 .leftside{
     background-color: darkgreen;
-    width: 100px;
+    width: 15%;
     float: left;
 }
 .main{
-    background-color: darkkhaki;
-    width: 600px;
+    background-color: white;
+    width: 70%;
+    height: 1000px;
     float: left;
 }
 .rightside {
     background-color: aliceblue;
-    width: 100px;
+    width: 15%;
     float: left;
 }
 .footer{
     background-color: cadetblue;
+    clear: both;
+    height: 100px;
 }
 
-.menu{
-    height: 34px;
-    text-align: center;
-}
 
 .menu>ul>li{
     display:inline;
@@ -38,7 +52,7 @@
     position: relative;
     top:8px;
     font-family: Tahoma, serif;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .menu>ul>li>a{
@@ -51,7 +65,8 @@
 }
 
 .Gallery{
-       max-width: 50px;
+    max-width: 75px;
+
 }
 
 .example-image-link{
